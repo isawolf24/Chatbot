@@ -1,0 +1,26 @@
+import Chatbot
+Chatbot.chat()
+
+import time
+def chat(): #Defining/Creating the chat function
+  print("Yerrrr mateee! I am M0nkee your personal assistant")
+  time.sleep(1) # Gives a pause for 1 second
+  name = input("What is your name: ")
+  print("That's a really good name")
+  time.sleep(1)
+  age = int(input("So "+name+", How old are you right now? "))
+  print("Wow! You must have a lot of stories i would love to hear them i was made ")
+  time.sleep(3)
+  interest = input("By the way, what do you do in your free time? ")
+  print("WORDDDD!!! that amzing i like to tell joke ")
+  time.sleep(2)
+  question = input("Would you like to hear one of my joke  (Yes/No)? ")
+  if question == "Yes": # if else condition
+    print("What did the fish say he swam into a wall .... DAMMM get it corny i know im still learing ")
+    time.sleep(2)
+    question2 = input("Do you have a joke? ")
+    print("LMAOO!")
+    time.sleep(1)
+    print("Anyways, it was great talking to you",name+". Let's catch up again soon. Good-bye!")
+  else:
+    print("Aw, well fine. Let's catch-up later whenever you want to talk",name+". Good-bye!")
